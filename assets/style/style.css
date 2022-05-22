@@ -1,0 +1,45 @@
+*{ 
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1.8em;
+}
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.header{
+  min-height: 8vh;
+  padding: 1.8em 3.2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  flex-wrap: wrap;
+  background-color:rgb(38,38,38);
+}
+.main-name{
+  color: #D6D6D6;
+  font-family: "Comic Neue", cursive;
+  font-size: 1.5em;
+}
+.menu-button{
+  padding: 0;
+}
+.nav-item{
+  text-decoration: none;
+  color:#D6D6D6;
+}
+.item{
+  display: inline-block;
+  font-weight: 600;
+  margin-inline: 20px;
+}
+.contact{
+  padding: 15px;
+  color: #D6D6D6;
+  background-color: rgb(38,38,38);
+  border-color: #D6D6D6;
+  border-radius: 6px;
+  font-size: 0.7em;
+  font-weight: 600;
+}
