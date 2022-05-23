@@ -9,7 +9,6 @@
 }
 
 .header{
-  min-height: 8vh;
   padding: 1.8em 3.2em;
   display: flex;
   justify-content: space-between;
@@ -32,10 +31,12 @@
 .item{
   display: inline-block;
   font-weight: 600;
-  margin-inline: 20px;
+}
+ul li:nth-child(n+2){
+  margin-left: 20px;
 }
 .contact{
-  padding: 15px;
+  padding: 10px 15px;
   color: #D6D6D6;
   background-color: rgb(38,38,38);
   border-color: #D6D6D6;
